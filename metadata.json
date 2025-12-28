@@ -1,0 +1,5 @@
+{
+  "name": "QazaTracker",
+  "description": "A motivational Qaza Namaz counter focusing on accomplished prayers with a Years/Months/Days breakdown.",
+  "requestFramePermissions": []
+}

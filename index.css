@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #f0fdf4;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+@keyframes bounce-custom {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.1); }
+}
+
+.animate-bounce-custom {
+  animation: bounce-custom 0.5s ease-in-out infinite;
+}
+
+@keyframes wink {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+}
+
+.animate-wink {
+  animation: wink 1s cubic-bezier(0.3, 0.001, 0.999, 0.6) infinite;
+}
