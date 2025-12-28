@@ -1,54 +1,49 @@
-# Qaza Tracker
+# 🌙 Qaza Tracker
 
-A professional, beautiful, and completely offline application to track and complete your missed (Qaza) Namaz and Fasting.
+**Qaza Tracker** — это современное, красивое и полностью офлайн-приложение для отслеживания и восполнения пропущенных (каза) намазов и постов.
 
-![Qaza Tracker Logo](android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+## 💡 Концепция
+Приложение помогает мусульманам систематизировать процесс восполнения долгов по поклонению. Главная особенность — визуализация прогресса: по мере заполнения данных в приложении «растут» деревья и цветы, что создает позитивную мотивацию.
 
-## 📋 Features
+## � Основные возможности
+- **Намаз:** Отслеживание Фаджр, Зухр, Аср, Магриб, Иша и Витр.
+- **Пост:** Учет долгов за Рамадан и отдельных дней.
+- **Гибкость:** Поддержка сокращенных (каср) намазов для путешественников.
+- **Приватность:** Все данные хранятся локально (LocalStorage). Нет облачных хранилищ и сбора данных.
+- **Backup:** Возможность экспорта и импорта данных в JSON.
 
-- **Prayer Tracking:** Track Fajr, Dhuhr, Asr, Maghrib, Isha, and Witr.
-- **Qasr Support:** Toggle between Full and Qasr (traveler) prayer modes.
-- **Fasting Debt:** Manage missed Ramadan months and individual days.
-- **Flexible Dates:** Set custom start and end dates for your missed periods.
-- **Visual Progress:** See your progress through growing trees and flowers.
-- **Backup & Restore:** Never lose your progress. Export your data to a JSON file and import it anytime.
-- **Offline First:** All data is stored locally on your device. Privacy is guaranteed.
+## 🛠 Технологии
+- **Frontend:** React 19, TypeScript, Vite.
+- **Styling:** Tailwind CSS.
+- **Mobile:** Capacitor 7 (Android).
+- **Icons:** Custom SVG.
 
-## 🚀 Getting Started
+## � Зависимости и требования
+- **Node.js:** v18 или выше.
+- **npm:** Поставляется с Node.js.
+- **Android Studio:** Для сборки и запуска на Android-устройствах (требуется SDK 34+).
 
-### Prerequisites
-- Node.js (v18 or higher)
-- Android Studio (for mobile building)
+## 📥 Как собрать и запустить
 
-### Installation
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+### 1. Установка зависимостей
+```bash
+npm install
+```
 
-### Development
-Run the app in development mode:
+### 2. Запуск в режиме разработки
 ```bash
 npm run dev
 ```
 
-### Build APK
-Build the Android APK:
+### 3. Сборка для Android
 ```bash
-cd android
-./gradlew assembleDebug
+# Сборка веб-части и синхронизация с Android проектом
+npm run build:android
+
+# Открытие проекта в Android Studio для финальной сборки APK
+npx cap open android
 ```
 
-## 🛠 Tech Stack
-- **Frontend:** React, TypeScript, Tailwind CSS
-- **Mobile:** Capacitor / Android Native
-- **Storage:** LocalStorage (Offline only)
-- **Icons:** Custom SVG Icons
-
-## 📜 Privacy Policy
-This app does not collect any data. Read our full [Privacy Policy](PRIVACY_POLICY.md).
-
-## 🌙 License
-This project is open-source and free for the Muslim community.
+## 📜 Лицензия
+Проект открыт и бесплатен для использования мусульманским сообществом.
 
