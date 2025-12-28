@@ -1,49 +1,49 @@
 # 🌙 Qaza Tracker
 
-**Qaza Tracker** — это современное, красивое и полностью офлайн-приложение для отслеживания и восполнения пропущенных (каза) намазов и постов.
+**Qaza Tracker** is a modern, beautiful, and completely offline application for tracking and completing missed (qaza) prayers and fasting.
 
-## 💡 Концепция
-Приложение помогает мусульманам систематизировать процесс восполнения долгов по поклонению. Главная особенность — визуализация прогресса: по мере заполнения данных в приложении «растут» деревья и цветы, что создает позитивную мотивацию.
+## 💡 Concept
+The application helps Muslims organize the process of fulfilling worship debts. The main feature is progress visualization: as you complete tasks in the app, trees and flowers "grow," providing positive motivation.
 
-## � Основные возможности
-- **Намаз:** Отслеживание Фаджр, Зухр, Аср, Магриб, Иша и Витр.
-- **Пост:** Учет долгов за Рамадан и отдельных дней.
-- **Гибкость:** Поддержка сокращенных (каср) намазов для путешественников.
-- **Приватность:** Все данные хранятся локально (LocalStorage). Нет облачных хранилищ и сбора данных.
-- **Backup:** Возможность экспорта и импорта данных в JSON.
+## 🚀 Key Features
+- **Prayer:** Track Fajr, Dhuhr, Asr, Maghrib, Isha, and Witr.
+- **Fasting:** Manage Ramadan debts and individual missed days.
+- **Flexibility:** Support for shortened (qasr) prayers for travelers.
+- **Privacy:** All data is stored locally (LocalStorage). No cloud storage or data collection.
+- **Backup:** Ability to export and import data in JSON format.
 
-## 🛠 Технологии
+## 🛠 Tech Stack
 - **Frontend:** React 19, TypeScript, Vite.
 - **Styling:** Tailwind CSS.
 - **Mobile:** Capacitor 7 (Android).
 - **Icons:** Custom SVG.
 
-## � Зависимости и требования
-- **Node.js:** v18 или выше.
-- **npm:** Поставляется с Node.js.
-- **Android Studio:** Для сборки и запуска на Android-устройствах (требуется SDK 34+).
+## 📦 Dependencies & Requirements
+- **Node.js:** v18 or higher.
+- **npm:** Included with Node.js.
+- **Android Studio:** For building and running on Android devices (requires SDK 34+).
 
-## 📥 Как собрать и запустить
+## 📥 How to Build and Run
 
-### 1. Установка зависимостей
+### 1. Install Dependencies
 ```bash
 npm install
 ```
 
-### 2. Запуск в режиме разработки
+### 2. Run in Development Mode
 ```bash
 npm run dev
 ```
 
-### 3. Сборка для Android
+### 3. Build for Android
 ```bash
-# Сборка веб-части и синхронизация с Android проектом
+# Build the web part and sync with the Android project
 npm run build:android
 
-# Открытие проекта в Android Studio для финальной сборки APK
+# Open the project in Android Studio for the final APK build
 npx cap open android
 ```
 
-## 📜 Лицензия
-Проект открыт и бесплатен для использования мусульманским сообществом.
+## 📜 License
+This project is open-source and free for the Muslim community.
 
