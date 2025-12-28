@@ -1,6 +1,15 @@
 # 🌙 Qaza Tracker
 
+<p align="center">
+  <img src="screenshots/logo.png" width="128" alt="Qaza Tracker Logo">
+</p>
+
 **Qaza Tracker** is a modern, beautiful, and completely offline application for tracking and completing missed (qaza) prayers and fasting.
+
+## 📱 Visual Interface
+<p align="center">
+  <img src="screenshots/app_screenshot.jpg" width="300" alt="Qaza Tracker App Screenshot">
+</p>
 
 ## 💡 Concept
 The application helps Muslims organize the process of fulfilling worship debts. The main feature is progress visualization: as you complete tasks in the app, trees and flowers "grow," providing positive motivation.
